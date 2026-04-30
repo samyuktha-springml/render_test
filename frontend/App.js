@@ -7,7 +7,7 @@ function App() {
 
   const fetchBestVendor = async () => {
     const res = await fetch(
-      `https://your-app.onrender.com/best-vendor?item=${item}&required_qty=${qty}`
+      `https://render-test-48g0.onrender.com/best-vendor?item=${item}&required_qty=${qty}`
     );
     const data = await res.json();
     setResult(data);
